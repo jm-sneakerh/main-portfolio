@@ -26,7 +26,7 @@ const Hero = () => {
     <section className="min-h-screen w-full flex flex-col relative" id="home">
       <div className="w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3">
         <p className="sm:text-3xl text-xl font-medium text-white text-center font-generalsans">
-          Hi, I am Adrian <span className="waving-hand">👋</span>
+          Hi, I am James <span className="waving-hand">👋</span>
         </p>
         <p className="hero_tag text-gray_gradient">Building Products & Brands</p>
       </div>
@@ -42,12 +42,12 @@ const Hero = () => {
               <HackerRoom scale={sizes.deskScale} position={sizes.deskPosition} rotation={[0.1, -Math.PI, 0]} />
             </HeroCamera>
 
-            <group>
+            {/*  <group>
               <Target position={sizes.targetPosition} />
               <ReactLogo position={sizes.reactLogoPosition} />
               <Rings position={sizes.ringPosition} />
               <Cube position={sizes.cubePosition} />
-            </group>
+            </group>*/}
 
             <ambientLight intensity={1} />
             <directionalLight position={[10, 10, 10]} intensity={0.5} />
