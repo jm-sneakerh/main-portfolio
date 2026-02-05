@@ -53,7 +53,7 @@ const Heroo = () => {
       {/* Profile Image (centered & responsive) */}
       <div className="relative z-10 flex justify-center mt-10">
         <img
-          src="/public/assets/grid1.pngo"
+          src="/public/assets/grid1.png"
           alt="James Maundu"
         />
       </div>
